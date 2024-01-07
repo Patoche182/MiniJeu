@@ -41,10 +41,19 @@ namespace MiniJeu
             Console.WriteLine("Bonjour, je suis " + nom);
         }
 
-        // Autres Methodes
         public int retournerVie()
         {
             return vie;
         }
+
+        public void seSoigner()
+        {
+            Console.WriteLine("Je récupère 10 points de vie");
+            vie += 10;
+            if (vie > 100) { vie = 100; }
+        }
+
+        // Autres Methodes
+
     }
 }
