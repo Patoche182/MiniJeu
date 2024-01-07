@@ -18,8 +18,6 @@ namespace MiniJeu
         public int Xp { get => xp; set => xp = value; }
         public string Nom { get => nom; set => nom = value; }
 
-
-
         // Constructeur
         public Personnage()
         {

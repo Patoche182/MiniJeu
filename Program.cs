@@ -27,6 +27,9 @@
             Console.WriteLine("Vie p1  = " + p1.Vie);
             Console.WriteLine("Vie p2  = " + p2.Vie);
 
+            Arme arme1 = new Arme();
+            arme1.afficherCaract();
+
             Console.ReadLine();
         }
     }
